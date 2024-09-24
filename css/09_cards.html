@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-size: 62.5%;
+        background-color: #1a1a1a;
+        color: #fcfcfc;
+        text-align: center;
+      }
+      .card {
+        background-color: #28262f;
+        padding: 1.5rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        max-width: 250px;
+      }
+      h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+      }
+      h1 {
+        font-size: 1, 6rem;
+        margin-bottom: 1rem;
+      }
+      img {
+        max-width: 100px;
+      }
+      .btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      del {
+        color: #7e7b7b;
+      }
+      button {
+        padding: 3px 6px;
+        border-radius: 5px;
+        border: 1px solid #3f3f4c;
+        background-color: #3f3f4c;
+        color: #fcfcfc;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #2c2c2f;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 2rem;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="./court_vision.png" alt="shoe1" />
+        <h2>Nike</h2>
+        <p>mens court vision Mid nn running shoes</p>
+        <h1>$4686 <del>$5000</del></h1>
+        <div class="btn">
+          <button>Buy Now</button>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./court_vision.png" alt="shoe1" />
+        <h2>Nike</h2>
+        <p>revolution 7 mens road running shoes</p>
+        <h1>$2796 <del>$4800</del></h1>
+        <div class="btn">
+          <button>Buy Now</button>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./court_vision.png" alt="shoe1" />
+        <h2>Nike</h2>
+        <p>mens mc trainer 2 running shoes</p>
+        <h1>$3930 <del>$6000</del></h1>
+        <div class="btn">
+          <button>Buy Now</button>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./court_vision.png" alt="shoe1" />
+        <h2>Nike</h2>
+        <p>mens court vision lo nn running shoes</p>
+        <h1>$3930 <del>$6000</del></h1>
+        <div class="btn">
+          <button>Buy Now</button>
+          <button>Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
